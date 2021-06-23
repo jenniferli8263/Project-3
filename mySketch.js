@@ -24,7 +24,7 @@ function draw() {
 	line(0,windowHeight - 90,windowWidth, windowHeight - 90);
 	fill(153,204,255);
 	textSize(50);
-	text('Jennifer Li', windowWidth - 15, windowHeight); // I adjusted the X coordinate a little bit so it shows up better
+	text('Jennifer Li', windowWidth - 20, windowHeight); // I adjusted the X coordinate a little bit so it shows up better
 	bounce();
 	shoot();
 	check();
